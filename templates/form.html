@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ฟอร์มร้องเรียน</title>
+</head>
+<body>
+    <h2>ฟอร์มร้องเรียน</h2>
+    <form action="/submit" method="POST" enctype="multipart/form-data">
+        <label>ชื่อ-นามสกุล:</label><br>
+        <input type="text" name="fullname" required><br><br>
+
+        <label>เบอร์โทรศัพท์:</label><br>
+        <input type="text" name="phone" required><br><br>
+
+        <label>ที่อยู่:</label><br>
+        <input type="text" name="address" required><br><br>
+
+        <label>เรื่องร้องเรียน:</label><br>
+        <textarea name="message" required></textarea><br><br>
+
+        <label>แนบรูปภาพ (ถ้ามี):</label><br>
+        <input type="file" name="image" accept="image/*"><br><br>
+
+        <label>แนบวิดีโอ (ถ้ามี):</label><br>
+        <input type="file" name="video" accept="video/*"><br><br>
+
+        <button type="submit">ส่งคำร้อง</button>
+    </form>
+</body>
+</html>

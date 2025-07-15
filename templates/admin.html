@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>แอดมิน - รายการคำร้อง</title>
+</head>
+<body>
+    <h2>รายการคำร้องเรียน</h2>
+
+    <a href="{{ url_for('logout') }}">ออกจากระบบ</a>
+
+    <table border="1" cellpadding="8">
+        <thead>
+            <tr>
+                <th>ชื่อ-นามสกุล</th>
+                <th>เบอร์โทร</th>
+                <th>ที่อยู่</th>
+                <th>เรื่องร้องเรียน</th>
+                <th>รูปภาพ</th>
+                <th>วิดีโอ</th>
+                <th>วันที่ส่ง</th>
+                <th>สถานะ</th>
+                <th>จัดการสถานะ</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for c in complaints %}
+            <tr>
+                <td>{{ c[0] }}</td>
+                <td>{{ c[1] }}</td>
+                <td>{{ c[2] }}</td>
+                <td>{{ c[3] }}</td>
+                <td>
+                    {% if c[4] %}
+                        <a href="{{ url_for('static', filename='uploads/' ~ c[4]) }}" target="_blank">ดูรูป</a>
+                    {% else %}
+                        -
+                    {% endif %}
+                </td>
+                <td>
+                    {% if c[5] %}
+                        <a href="{{ url_for('static', filename='uploads/' ~ c[5]) }}" target="_blank">ดูวิดีโอ</a>
+                    {% else %}
+                        -
+                    {% endif %}
+                </td>
+                <td>{{ c[6] }}</td>
+                <td>{{ c[7] }}</td>
+                <td>
+                    <form method="post" action="{{ url_for('update_status') }}">
+                        <input type="hidden" name="index" value="{{ loop.index0 }}">
+                        <select name="status">
+                            <option value="รอดำเนินการ" {% if c[7] == 'รอดำเนินการ' %}selected{% endif %}>รอดำเนินการ</option>
+                            <option value="รับเรื่องแล้ว" {% if c[7] == 'รับเรื่องแล้ว' %}selected{% endif %}>รับเรื่องแล้ว</option>
+                            <option value="กำลังดำเนินการ" {% if c[7] == 'กำลังดำเนินการ' %}selected{% endif %}>กำลังดำเนินการ</option>
+                            <option value="เสร็จสิ้น" {% if c[7] == 'เสร็จสิ้น' %}selected{% endif %}>เสร็จสิ้น</option>
+                        </select>
+                        <button type="submit">อัปเดต</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
