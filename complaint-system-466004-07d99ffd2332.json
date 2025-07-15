@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "complaint-system-466004",
+  "private_key_id": "07d99ffd2332f5712097bbd998737796a22dda9b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC4fd9BEzmewXPF\nUBGhtI2cTtcEpMeDuwEf3Bzio/jlGqIyQQw3EPbJei+ZeE27pX91kXC9CCIq4gAW\nJX5X8VRPSRNgKTNLxDbVA2TqGyu3J5YLqdMcW5xB5+f/1eWsiGAfiEdbOVMTqt3i\n+3RlnQbFQVFlT6qNVrsUr2x5/IQJ58UQeAN2aPzEqWNfpksIMLYsN3kWvtv9hUGL\nOXMGPxArJxQYKFjnU6QApi3fykTCnhA4CYB4P8C9hDxG/qND4aa3Wk70vOAinrYM\nvLUaZdn0cCHOlmwu0rJORY8jta0I1ICRhGUE9u4H5py6cm1vSBJI1Y5PH6iQQ6rI\nkqUW0gmLAgMBAAECggEAOGd/TJF4odFKOE54/YPKcbnm4gwQ1XTkbJ2qlR4Fl+HT\nKeMaPXGpycJZ8CVIOrDn7YVYPurQK2UqGps+69sj6BOS4WjnPmhQTUK65RoGfPoU\n1R8IJJjbhojEtMJr9BpDrRBIpJq7i/1G1kEDfpeJ/N+x53P6VDjqfHH/i7IImlAl\nTHFzgIE9TBYJG9x105BcvvO2mCcIm/d8ryiWsQHtI7/DNKyYkUMG93vVK5JfGhre\ny3zdsS+IR0lnc0jtmeyYxikPwlLDyFuWJge0nU1HhRWqThnZnKcJHweI2h2zbTBr\nE2rzER8cRq7n9ai6VodIzZFtRo6WwnR1O820NZAK/QKBgQDgCmWuSyoamFlS+L9e\nWlWdmUc3HJGHRsP0EcxNaXzI5eUV3+1vdD+c1sIue3nhNO2UOCW51dmUIvB7v+fE\nfoTcnTrXUJTJbQsf3dT3F3ovMo6wqLEy5dqnvnRX/32XlVyC6WwbTWLQHFpL9zPg\nkib19QcJ/Wn9QTvH22QAWtQFzwKBgQDSzzY0NKVs32LwarcKoJqglYoBXgZ0WvdW\n9Yq9WNSFiRPh8HQIixwmqhaIqMvnvcf7YolVeHt61NSB9TaOzbdD12R0wVNRN/Hv\nnLQaeeX9dMcCKPQUkJfV8lLPkLy2K5u2CFqk06Pqoxu+pCzpfdBQJSSw8sY0XRa5\nYTiIUMrrhQKBgQCuNWd7b9b9dxl9+w5TP8rzEQzfPcereMtGLdC/IRd238yShd0K\nnUoZmqTDoB/VjmJurnonVrIpDkIQ99gwYnDNWzU11+LZ/YB49vVybT8FFDsAAyxG\nd5TeeqndAz2VcP7OjNMTJ8l+KY3NJBuitAK3niArFHImC2OAtIe9/uJ+4QKBgAP9\nF7F1LYwZze1ul3gEAej361yLQuQAtJ1Yl/9tJtg/97hWrFtdBnNU1IhRaUpBNP90\npdSQKwXv8PVkhlu9WLJX6Paskb7/p/w4os+9brSU+Q75Z2TcN4M8yoRS4L8xpAiV\nr+Fef8N4wpWg1Zi1YLOjgEY40bc766omRMOPg8dhAoGAFNEEfZ26WpCAY+clmbS5\n7uHwnB3zWyZ363Q1qsUz4NRxgWWbTlze/3T5j+v4VvT2LAUnN761eugbagycZfeD\n8KlAIwwWDtbttIIRGukhVirMRHcN7302Wqi7J8MRQN300U02BWAWwrxsOvXNr5q0\nkqblA00Yormlmu7dhYrYapw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "complaint-bot@complaint-system-466004.iam.gserviceaccount.com",
+  "client_id": "103522368918588051232",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/complaint-bot%40complaint-system-466004.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
